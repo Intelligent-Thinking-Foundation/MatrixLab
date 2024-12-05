@@ -26,6 +26,10 @@ MatrixLab aspires to:
 - Serve as a testing ground for ideas that push the boundaries of current AI paradigms, from adaptive planning to emergent behavior.
 - Inspire new ways of thinking about intelligence, autonomy, and the interplay between humans and machines.
 
+## Get Started
+Different Matrix Simulation initial codes live in separate branches. The branch ‘matrix-lab’ contains the first implementation of a Matrix Simulation.
+
+
 ## Get Involved
 
 MatrixLab is at the conceptual stage, and we welcome collaborators and contributors to help shape its development. If you're interested in participating, feel free to:
