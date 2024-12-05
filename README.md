@@ -36,4 +36,10 @@ MatrixLab is at the conceptual stage, and we welcome collaborators and contribut
 
 ---
 
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).  
+You are free to share and adapt the material for non-commercial purposes, with proper attribution.  
+For full license details, see the [LICENSE](LICENSE) file.
+
 MatrixLab is part of the broader efforts of the [Intelligent Thinking Foundation](https://github.com/Intelligent-Thinking-Foundation), which supports research and tools for studying emergent intelligence and advancing the boundaries of AI.
