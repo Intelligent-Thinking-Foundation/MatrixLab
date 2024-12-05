@@ -25,11 +25,13 @@ jobs:
         run: |
           ruby executable-block.rb substrate.txt "GitHub Actions Auto-Transform"
 
-      # Step 4: Commit and push changes
+      # Step 4: Commit and Push Changes
       - name: Commit and Push Changes
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config user.name "MatrixLab Bot"
           git config user.email "matrixlab@bot.com"
           git add substrate.txt
           git commit -m "Updated substrate after GitHub Actions execution" --quiet || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${PAT_TOKEN}@github.com/Intelligent-Thinking-Foundation/MatrixLab.git HEAD:$(git rev-parse --abbrev-ref HEAD)
