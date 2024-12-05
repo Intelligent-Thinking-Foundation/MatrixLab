@@ -28,7 +28,6 @@ jobs:
       # Step 4: Commit and Push Changes
       - name: Commit and Push Changes
         env:
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
